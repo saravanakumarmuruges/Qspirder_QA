@@ -1,0 +1,15 @@
+'''WAP TO ADD ALL THE INTEGER VALUES IN A GIVEN LIST AND PRINT FINAL RESULT. 
+THEN CHECK WHETHER TE TOTAL VALUE LIES BETWEEN 65 TO 90 OR NOT. 
+IF IT IS TRUE, PRINT THE RESPECTIVE CHARACTER, 
+ELSE IGNORE.'''
+
+li = [1,2,3,4,5, 55]
+total = 0
+
+for i in li:
+    total +=i
+
+print(total)
+
+if 65<=total<=90:
+    print(True)
